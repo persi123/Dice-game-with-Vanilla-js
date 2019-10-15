@@ -1,0 +1,156 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: block;
+  background: url("backimage.jpg");
+  height: 700.4px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  position: relative;
+}
+h3 {
+  position: absolute;
+  margin-left: 587px;
+  margin-top: 40.717px;
+  color: whitesmoke;
+}
+.players {
+  display: grid;
+
+  grid-template-columns: 39% 39%;
+
+  grid-template-rows: 38rem;
+  margin-left: 202px;
+}
+.player0 {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 89%;
+  margin-top: 107px;
+  text-align: center;
+}
+h1 {
+  margin-top: 112.433px;
+}
+.player_score {
+  margin-top: 95px;
+
+  font-size: 57px;
+}
+.player_current_box {
+  display: block;
+  background: red;
+  width: 157px;
+  height: 109px;
+  margin-top: 92px;
+  margin-left: 178px;
+}
+.current_label {
+  font-size: 33px;
+}
+.current_score {
+  font-size: 40px;
+  color: bisque;
+}
+
+.player1 {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 89%;
+  margin-top: 107px;
+  text-align: center;
+}
+.newgame {
+  position: absolute;
+  margin-left: 662px;
+  margin-top: 126px;
+  border: 0;
+  width: 112px;
+
+  height: 39px;
+  font-size: 17px;
+
+  background-color: whitesmoke;
+}
+.buttons {
+  position: absolute;
+  margin-top: 35%;
+}
+.roll {
+  position: absolute;
+  margin-left: 662px;
+  margin-bottom: 12px;
+
+  margin-top: 52px;
+
+  width: 112px;
+
+  height: 39px;
+  border: 0;
+
+  background-color: whitesmoke;
+  font-size: 19px;
+}
+.hold {
+  position: absolute;
+  margin-left: 662px;
+  margin-top: 1px;
+
+  width: 112px;
+
+  height: 39px;
+  border: 0;
+
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+}
+.dice_img {
+  height: 65px;
+
+  position: absolute;
+
+  margin-left: 680px;
+
+  margin-top: 348px;
+}
+.active {
+  background-color: #e2e1e1;
+}
+.winner {
+  background-color: #e2e1e1;
+}
+.reddot {
+  /* content: url(reddot.jpg); */
+  position: absolute;
+
+  width: 28px;
+
+  height: 18.017px;
+
+  margin-top: 123px;
+
+  margin-left: 77px;
+  position: absolute;
+}
+.limits {
+  position: absolute;
+
+  margin-left: 567px;
+
+  margin-top: 67px;
+}
+.limit {
+  height: 26px;
+
+  border-radius: 5px;
+}
+.submit {
+  border: 0;
+
+  background-color: whitesmoke;
+  height: 30px;
+  border-radius: 5px;
+}
